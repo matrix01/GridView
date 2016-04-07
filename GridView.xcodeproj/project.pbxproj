@@ -1,0 +1,541 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		F185617D1C0F27B10032D008 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = F185617C1C0F27B10032D008 /* main.m */; };
+		F18561801C0F27B10032D008 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = F185617F1C0F27B10032D008 /* AppDelegate.m */; };
+		F18561831C0F27B10032D008 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F18561821C0F27B10032D008 /* ViewController.m */; };
+		F18561861C0F27B10032D008 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F18561841C0F27B10032D008 /* Main.storyboard */; };
+		F18561881C0F27B10032D008 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F18561871C0F27B10032D008 /* Assets.xcassets */; };
+		F185618B1C0F27B10032D008 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F18561891C0F27B10032D008 /* LaunchScreen.storyboard */; };
+		F18561961C0F27B10032D008 /* GridViewTests.m in Sources */ = {isa = PBXBuildFile; fileRef = F18561951C0F27B10032D008 /* GridViewTests.m */; };
+		F18561A11C0F27B10032D008 /* GridViewUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = F18561A01C0F27B10032D008 /* GridViewUITests.m */; };
+		F18561B21C0F2C2A0032D008 /* Flickr.m in Sources */ = {isa = PBXBuildFile; fileRef = F18561AF1C0F2C2A0032D008 /* Flickr.m */; };
+		F18561B31C0F2C2A0032D008 /* FlickrPhoto.m in Sources */ = {isa = PBXBuildFile; fileRef = F18561B11C0F2C2A0032D008 /* FlickrPhoto.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		F18561921C0F27B10032D008 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = F18561701C0F27B10032D008 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = F18561771C0F27B10032D008;
+			remoteInfo = GridView;
+		};
+		F185619D1C0F27B10032D008 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = F18561701C0F27B10032D008 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = F18561771C0F27B10032D008;
+			remoteInfo = GridView;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		F18561781C0F27B10032D008 /* GridView.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = GridView.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		F185617C1C0F27B10032D008 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		F185617E1C0F27B10032D008 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		F185617F1C0F27B10032D008 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		F18561811C0F27B10032D008 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		F18561821C0F27B10032D008 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		F18561851C0F27B10032D008 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		F18561871C0F27B10032D008 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		F185618A1C0F27B10032D008 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		F185618C1C0F27B10032D008 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F18561911C0F27B10032D008 /* GridViewTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = GridViewTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		F18561951C0F27B10032D008 /* GridViewTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = GridViewTests.m; sourceTree = "<group>"; };
+		F18561971C0F27B10032D008 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F185619C1C0F27B10032D008 /* GridViewUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = GridViewUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		F18561A01C0F27B10032D008 /* GridViewUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = GridViewUITests.m; sourceTree = "<group>"; };
+		F18561A21C0F27B10032D008 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F18561AE1C0F2C2A0032D008 /* Flickr.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Flickr.h; sourceTree = "<group>"; };
+		F18561AF1C0F2C2A0032D008 /* Flickr.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Flickr.m; sourceTree = "<group>"; };
+		F18561B01C0F2C2A0032D008 /* FlickrPhoto.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FlickrPhoto.h; sourceTree = "<group>"; };
+		F18561B11C0F2C2A0032D008 /* FlickrPhoto.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FlickrPhoto.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		F18561751C0F27B10032D008 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F185618E1C0F27B10032D008 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F18561991C0F27B10032D008 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		F185616F1C0F27B10032D008 = {
+			isa = PBXGroup;
+			children = (
+				F185617A1C0F27B10032D008 /* GridView */,
+				F18561941C0F27B10032D008 /* GridViewTests */,
+				F185619F1C0F27B10032D008 /* GridViewUITests */,
+				F18561791C0F27B10032D008 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		F18561791C0F27B10032D008 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				F18561781C0F27B10032D008 /* GridView.app */,
+				F18561911C0F27B10032D008 /* GridViewTests.xctest */,
+				F185619C1C0F27B10032D008 /* GridViewUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		F185617A1C0F27B10032D008 /* GridView */ = {
+			isa = PBXGroup;
+			children = (
+				F18561AE1C0F2C2A0032D008 /* Flickr.h */,
+				F18561AF1C0F2C2A0032D008 /* Flickr.m */,
+				F18561B01C0F2C2A0032D008 /* FlickrPhoto.h */,
+				F18561B11C0F2C2A0032D008 /* FlickrPhoto.m */,
+				F185617E1C0F27B10032D008 /* AppDelegate.h */,
+				F185617F1C0F27B10032D008 /* AppDelegate.m */,
+				F18561811C0F27B10032D008 /* ViewController.h */,
+				F18561821C0F27B10032D008 /* ViewController.m */,
+				F18561841C0F27B10032D008 /* Main.storyboard */,
+				F18561871C0F27B10032D008 /* Assets.xcassets */,
+				F18561891C0F27B10032D008 /* LaunchScreen.storyboard */,
+				F185618C1C0F27B10032D008 /* Info.plist */,
+				F185617B1C0F27B10032D008 /* Supporting Files */,
+			);
+			path = GridView;
+			sourceTree = "<group>";
+		};
+		F185617B1C0F27B10032D008 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				F185617C1C0F27B10032D008 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		F18561941C0F27B10032D008 /* GridViewTests */ = {
+			isa = PBXGroup;
+			children = (
+				F18561951C0F27B10032D008 /* GridViewTests.m */,
+				F18561971C0F27B10032D008 /* Info.plist */,
+			);
+			path = GridViewTests;
+			sourceTree = "<group>";
+		};
+		F185619F1C0F27B10032D008 /* GridViewUITests */ = {
+			isa = PBXGroup;
+			children = (
+				F18561A01C0F27B10032D008 /* GridViewUITests.m */,
+				F18561A21C0F27B10032D008 /* Info.plist */,
+			);
+			path = GridViewUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		F18561771C0F27B10032D008 /* GridView */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F18561A51C0F27B10032D008 /* Build configuration list for PBXNativeTarget "GridView" */;
+			buildPhases = (
+				F18561741C0F27B10032D008 /* Sources */,
+				F18561751C0F27B10032D008 /* Frameworks */,
+				F18561761C0F27B10032D008 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = GridView;
+			productName = GridView;
+			productReference = F18561781C0F27B10032D008 /* GridView.app */;
+			productType = "com.apple.product-type.application";
+		};
+		F18561901C0F27B10032D008 /* GridViewTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F18561A81C0F27B10032D008 /* Build configuration list for PBXNativeTarget "GridViewTests" */;
+			buildPhases = (
+				F185618D1C0F27B10032D008 /* Sources */,
+				F185618E1C0F27B10032D008 /* Frameworks */,
+				F185618F1C0F27B10032D008 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				F18561931C0F27B10032D008 /* PBXTargetDependency */,
+			);
+			name = GridViewTests;
+			productName = GridViewTests;
+			productReference = F18561911C0F27B10032D008 /* GridViewTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		F185619B1C0F27B10032D008 /* GridViewUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F18561AB1C0F27B10032D008 /* Build configuration list for PBXNativeTarget "GridViewUITests" */;
+			buildPhases = (
+				F18561981C0F27B10032D008 /* Sources */,
+				F18561991C0F27B10032D008 /* Frameworks */,
+				F185619A1C0F27B10032D008 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				F185619E1C0F27B10032D008 /* PBXTargetDependency */,
+			);
+			name = GridViewUITests;
+			productName = GridViewUITests;
+			productReference = F185619C1C0F27B10032D008 /* GridViewUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		F18561701C0F27B10032D008 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0710;
+				ORGANIZATIONNAME = apple;
+				TargetAttributes = {
+					F18561771C0F27B10032D008 = {
+						CreatedOnToolsVersion = 7.1;
+						DevelopmentTeam = K9LBDPU5M2;
+					};
+					F18561901C0F27B10032D008 = {
+						CreatedOnToolsVersion = 7.1;
+						DevelopmentTeam = K9LBDPU5M2;
+						TestTargetID = F18561771C0F27B10032D008;
+					};
+					F185619B1C0F27B10032D008 = {
+						CreatedOnToolsVersion = 7.1;
+						DevelopmentTeam = K9LBDPU5M2;
+						TestTargetID = F18561771C0F27B10032D008;
+					};
+				};
+			};
+			buildConfigurationList = F18561731C0F27B10032D008 /* Build configuration list for PBXProject "GridView" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = F185616F1C0F27B10032D008;
+			productRefGroup = F18561791C0F27B10032D008 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				F18561771C0F27B10032D008 /* GridView */,
+				F18561901C0F27B10032D008 /* GridViewTests */,
+				F185619B1C0F27B10032D008 /* GridViewUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		F18561761C0F27B10032D008 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F185618B1C0F27B10032D008 /* LaunchScreen.storyboard in Resources */,
+				F18561881C0F27B10032D008 /* Assets.xcassets in Resources */,
+				F18561861C0F27B10032D008 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F185618F1C0F27B10032D008 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F185619A1C0F27B10032D008 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		F18561741C0F27B10032D008 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F18561831C0F27B10032D008 /* ViewController.m in Sources */,
+				F18561801C0F27B10032D008 /* AppDelegate.m in Sources */,
+				F18561B21C0F2C2A0032D008 /* Flickr.m in Sources */,
+				F18561B31C0F2C2A0032D008 /* FlickrPhoto.m in Sources */,
+				F185617D1C0F27B10032D008 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F185618D1C0F27B10032D008 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F18561961C0F27B10032D008 /* GridViewTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F18561981C0F27B10032D008 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F18561A11C0F27B10032D008 /* GridViewUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		F18561931C0F27B10032D008 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = F18561771C0F27B10032D008 /* GridView */;
+			targetProxy = F18561921C0F27B10032D008 /* PBXContainerItemProxy */;
+		};
+		F185619E1C0F27B10032D008 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = F18561771C0F27B10032D008 /* GridView */;
+			targetProxy = F185619D1C0F27B10032D008 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		F18561841C0F27B10032D008 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F18561851C0F27B10032D008 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		F18561891C0F27B10032D008 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F185618A1C0F27B10032D008 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		F18561A31C0F27B10032D008 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.1;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		F18561A41C0F27B10032D008 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		F18561A61C0F27B10032D008 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = GridView/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.apple.GridView;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		F18561A71C0F27B10032D008 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = GridView/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.apple.GridView;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		F18561A91C0F27B10032D008 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = GridViewTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.apple.GridViewTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/GridView.app/GridView";
+			};
+			name = Debug;
+		};
+		F18561AA1C0F27B10032D008 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = GridViewTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.apple.GridViewTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/GridView.app/GridView";
+			};
+			name = Release;
+		};
+		F18561AC1C0F27B10032D008 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = GridViewUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.apple.GridViewUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = GridView;
+				USES_XCTRUNNER = YES;
+			};
+			name = Debug;
+		};
+		F18561AD1C0F27B10032D008 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = GridViewUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.apple.GridViewUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = GridView;
+				USES_XCTRUNNER = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		F18561731C0F27B10032D008 /* Build configuration list for PBXProject "GridView" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F18561A31C0F27B10032D008 /* Debug */,
+				F18561A41C0F27B10032D008 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F18561A51C0F27B10032D008 /* Build configuration list for PBXNativeTarget "GridView" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F18561A61C0F27B10032D008 /* Debug */,
+				F18561A71C0F27B10032D008 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F18561A81C0F27B10032D008 /* Build configuration list for PBXNativeTarget "GridViewTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F18561A91C0F27B10032D008 /* Debug */,
+				F18561AA1C0F27B10032D008 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F18561AB1C0F27B10032D008 /* Build configuration list for PBXNativeTarget "GridViewUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F18561AC1C0F27B10032D008 /* Debug */,
+				F18561AD1C0F27B10032D008 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = F18561701C0F27B10032D008 /* Project object */;
+}
